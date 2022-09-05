@@ -1,0 +1,35 @@
+{
+  "name": "assignment_ts",
+  "version": "1.0.0",
+  "description": "The Induction Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p ."
+  },
+  "author": "Tahseen Zaid",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/joi": "^13.1.0",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/moment": "^2.13.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^13.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mysql2": "^2.3.3",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.0",
+    "@types/nodemon": "^1.19.1",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1"
+  }
+}
